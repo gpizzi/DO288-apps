@@ -10,8 +10,8 @@ pipeline {
     }
 
     environment {
-        DEV_PROJECT = "gpizzi-books-dev"
-        STAGE_PROJECT = "gpizzi-books-stage"
+        DEV_PROJECT = "gpizzi-micron-com-books-dev"
+        STAGE_PROJECT = "gpizzi-micron-com-books-stage"
         APP_GIT_URL = "https://github.com/gpizzi/DO288-apps"
         NEXUS_SERVER = "http://nexus-common.apps.ocp-na2.prod.nextcle.com/repository/nodejs"
 
